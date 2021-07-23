@@ -1,5 +1,9 @@
 # Rails Code Challenge Prep - Songs By JT
 
+- Custom Route!
+- Nesting data in response (manual, include, serializers)
+
+
 For this assessment, you'll be working with domain for Justin Timberlake superfans.
 
 In this repo, there is a Rails application with some features built out. There

@@ -91,7 +91,7 @@ SuperFan.create!([
 puts "Creating reviews..."
 Song.all.each do |song|
   rand(1..5).times do
-    # get a random pizza
+    # get a random SuperFan
     super_fan = SuperFan.find(SuperFan.pluck(:id).sample)
 
     Review.create!(super_fan_id: super_fan.id, song_id: song.id, rating: rand(1..10), comment: "gibberish")
